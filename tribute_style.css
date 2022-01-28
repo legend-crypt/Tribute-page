@@ -1,0 +1,99 @@
+body {
+  background: #0CECDD;
+}
+
+#title {
+  background: #890596;
+  color: #FFF338;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 1300px;
+  height: 60px;
+  border: 1px solid #0CECDD;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#owner {
+  color: #890596;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.quote {
+  color: #890596;
+  /* margin-bottom: 35px;*/
+}
+
+#img-div {
+  color: #fff338;
+  background: #890596;
+  border: 0px solid;
+  width: 18rem;
+  height: 15rem;
+  padding: 0.3rem;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* overflow: scroll;*/
+  -webkit-box-shadow: 1px 1px 5px blue;
+          box-shadow: 1px 1px 5px blue;
+  /* position: relative;*/
+}
+
+#img-div #image {
+  width: 5em;
+  height: 5em;
+  display: block;
+  border-radius: 50%;
+  margin-top: -3rem;
+  margin-left: 7rem;
+  margin-right: 5rem;
+}
+
+#img-div #image-caption {
+  margin-top: 1rem;
+}
+
+.favourite-quote {
+  color: #CF0000;
+  display: block;
+}
+
+.favourite-quote::after {
+  content: "quote";
+  background: #fff338;
+  border: 0px solid;
+  border-radius: 20px;
+  padding: 5px;
+  height: 60px;
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.biography-heading {
+  color: #cf0000;
+}
+
+.biography {
+  color: #890596;
+}
+
+.impact-heading {
+  color: #cf0000;
+}
+
+ul {
+  color: #890596;
+}
+/*# sourceMappingURL=tribute_style.css.map */
