@@ -1,99 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap");
+html {
+  font-size: 16px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background: #0CECDD;
 }
 
-#title {
-  background: #890596;
-  color: #FFF338;
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 1300px;
-  height: 60px;
-  border: 1px solid #0CECDD;
-  border-radius: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
 }
 
-#owner {
-  color: #890596;
+.title {
+  color: #1B0F57;
+  font-size: 3.25rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: semi-bold;
+  font-style: italic;
 }
 
-.flex-container {
+.owner {
+  color: #1B0F57;
+  border-bottom: solid 1px #1B0F57;
+  width: 16rem;
+}
+
+.row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  gap: 1.25rem;
+}
+
+.col {
+  width: 100%;
+}
+
+.favourite-quote {
+  color: #1B0F57;
+  font-weight: bold;
+  font-size: 2.9375rem;
+}
+
+.favourite-quote::after {
+  content: "Quote";
+  background: #AFF18E;
+  border: 0px solid #AFF18E;
+  border-radius: 20px;
+  margin: auto;
+  padding: 0.22rem;
+  margin: auto;
 }
 
 .quote {
   color: #890596;
-  /* margin-bottom: 35px;*/
+  font-size: 1.075rem;
 }
 
-#img-div {
-  color: #fff338;
-  background: #890596;
+.img_div {
+  width: 15.25rem;
+  background: #1B0F57;
   border: 0px solid;
-  width: 18rem;
-  height: 15rem;
-  padding: 0.3rem;
   border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* overflow: scroll;*/
-  -webkit-box-shadow: 1px 1px 5px blue;
-          box-shadow: 1px 1px 5px blue;
-  /* position: relative;*/
+  padding: 0.5rem;
+  color: #FFF338;
+  -webkit-box-shadow: 5px 3px 9px #232535;
+          box-shadow: 5px 3px 9px #232535;
 }
 
-#img-div #image {
-  width: 5em;
-  height: 5em;
-  display: block;
+.img_div .image {
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
-  margin-top: -3rem;
-  margin-left: 7rem;
-  margin-right: 5rem;
-}
-
-#img-div #image-caption {
-  margin-top: 1rem;
-}
-
-.favourite-quote {
-  color: #CF0000;
   display: block;
-}
-
-.favourite-quote::after {
-  content: "quote";
-  background: #fff338;
-  border: 0px solid;
-  border-radius: 20px;
-  padding: 5px;
-  height: 60px;
-  width: 20px;
-  margin-bottom: 10px;
+  margin: -2rem 3rem  0.25rem 3.25rem;
 }
 
 .biography-heading {
-  color: #cf0000;
+  color: #1B0F57;
+  text-align: center;
+  font-size: 2.9375rem;
+  font-weight: bold;
 }
 
 .biography {
   color: #890596;
+  font-size: 1.075rem;
 }
 
 .impact-heading {
-  color: #cf0000;
+  color: #1B0F57;
+  font-size: 4.3125rem;
+  font-weught: bold;
+  font-style: italic;
 }
 
-ul {
+li {
   color: #890596;
+  font-size: 1.075rem;
 }
 /*# sourceMappingURL=tribute_style.css.map */
